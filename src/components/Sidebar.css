@@ -3,22 +3,28 @@
     width: 100vw;
     background-color: rgb(197, 194, 194);
 }
+.User-details-wrapper{
+    display: flex;
+}
+.sidebar-wrapper{
+    display: flex;
+    flex-direction: row;
+}
 .user-details{
+    width: 50vw;
      display: flex;
      justify-content: center;
      align-items: center;
-   
-    /* flex-direction: column;  */
+    flex-direction: column; 
 }
 .user-details-info{
     display: flex;
-    justify-content: center;
-    align-items: center;
+
   
    flex-direction: column; 
 }
 
-.user-bio{
-    /* text-align: center; */
-
+.user-bio-title{
+font-weight:bold ;
+padding: 0 10px;
 }

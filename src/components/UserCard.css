@@ -14,13 +14,24 @@
     height: 100vh;
     overflow-y: auto; 
 }
+.spinner-container{
+    height: 100vh;
+    width: 100vw;
+}
 .card-image{
     border-radius: 50%;
     display: flex;
     align-items: center;
+
 }
 .card-image img{
-    width: 80px;
+    width: 150px;
+    padding: 0 15px;
+}
+.user-details-img img{
+    padding: 5vh 0;
+    border-radius: 50%;
+    width: 200px;
 }
 .card-button{
     display: flex;
